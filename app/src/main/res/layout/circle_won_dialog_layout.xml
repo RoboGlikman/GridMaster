@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/dark_blue_transparent">
+
+        <TextView
+            android:id="@+id/winMessageTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:text="some msg"
+            android:textColor="@color/circle_pressed_color"
+            android:textSize="25sp"
+            android:textStyle="bold|italic" />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/backBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/circle_won_btn_background"
+            android:textStyle="bold|italic"
+            android:text="@string/back_home"
+            android:textColor="@color/dark_blue_transparent"/>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/playAgainBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/circle_won_btn_background"
+            android:textStyle="bold|italic"
+            android:text="@string/play_again"
+            android:textColor="@color/dark_blue_transparent"
+            android:layout_marginBottom="10dp"/>
+
+    </LinearLayout>
+</RelativeLayout>

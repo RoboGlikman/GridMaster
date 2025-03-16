@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GridMaster</string>
+    <string name="welcome">ברוך הבא!</string>
+    <string name="view_recent_games">צפה במשחקים קודמים</string>
+    <string name="regular">רגיל</string>
+    <string name="random_start">התחלה אקראית</string>
+    <string name="random_and_limited">התחלה אקראית ומהלכים מוגבלים</string>
+    <string name="enter_players_names">הכנס את שמות השחקנים</string>
+    <string name="player_one">שחקן 1</string>
+    <string name="player_two">שחקן 2</string>
+    <string name="next_btn">הבא</string>
+    <string name="easy">קל</string>
+    <string name="medium">בינוני</string>
+    <string name="hard">קשה</string>
+    <string name="help">עזרה</string>
+    <string name="select_diff">בחר דרגת קושי</string>
+    <string name="back_home">בחזרה למסך הבית</string>
+    <string name="play_again">שחקו שוב</string>
+    <string name="play">שחק</string>
+</resources>
